@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberPet</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>The Cyber-Pet</h1>
+    <h2>How Long Can You Keep The Button Press Going</h2>
+    <div class="gameContainer">
+    <img src="./petimagesapp/dog-kennel.jpg" src="" alt="Dog-Kennel" height="400px" width="500px" style="display: block">
+    </div>
+
+    <div class ="image_container">
+        <img id="petImage" src="" alt="Pet Image" style="display:none;" width="400px" height="200px">
+        <div class = "overlay"></div>
+    </div>
+
+    <div class="pet_container">
+        <!-- Dog Section -->
+        <div class="pet-section">
+            <h3>Dog</h3>
+            <p>Press image for animation ;)</p>
+            <!-- Dog House Image -->
+            <img id="dogHouse" src="./petimagesapp/doggyKennalPopIn.png" alt="Dog House" class="pet-image">
+            <!-- Hidden Image of Dog in House -->
+            <img id="dogInHouse" src="./petimagesapp/doggyKennalPopUp.png" alt="Dog in House" class="pet-image" style="display: none;">
+            <button id="playButtonDog">Play as Dog</button>
+            <button id="dogButton">Play Dog Sound</button>
+            <audio id="dogSound" src="./petaudioapp/mixkit-annoyed-big-dog-barking-51.wav"></audio>
+        </div>
+ 
+        <!-- Cat Section -->
+        <div class="pet-section">
+            <h3>Cat</h3>
+            <p>Press image for animation ;)</p>
+            <!-- Cat House Image -->
+            <img id="catHouse" src="./petimagesapp/cat-hide.png" alt="Cat House" class="pet-image">
+            <!-- Hidden Image of Cat in House -->
+            <img id="catInHouse" src="./petimagesapp/cat-show.png" alt="Cat in House" class="pet-image" style="display: none;">
+            <button id="playButtonCat">Play as Cat</button>
+            <button id="catButton">Play Cat Sound</button>
+            <audio id="catSound" src="./petaudioapp/mixkit-cartoon-kitty-begging-meow-92.wav"></audio>
+        </div>
+ 
+        <!-- Birdies Section -->
+        <div class="pet-section">
+            <h3>Birdies</h3>
+            <p>Press image for animation ;)</p>
+            <!-- Bird House Image -->
+            <img id="birdHouse" src="./petimagesapp/empty-bird-cage.png" alt="Bird House" class="pet-image">
+            <!-- Hidden Image of Birds in House -->
+            <img id="birdsInHouse" src="./petimagesapp/full-bird-cage.png" alt="Birds in House" class="pet-image" style="display: none;">
+            <button id="playButtonBird">Play as Bird</button>
+            <button id="birdButton">Play Bird Sound</button>
+            <audio id="birdSound" src="./petaudioapp/mixkit-birds-chirping-in-the-jungle-2433.wav"></audio>
+        </div>
+ 
+        <!-- Horsey Section -->
+        <div class="pet-section">
+            <h3>Horsey</h3>
+            <p>Press image for animation ;)</p>
+            <!-- Horse House Image -->
+            <img id="horseHouse" src="./petimagesapp/horse-in-stable.png" alt="Horse House" class="pet-image">
+            <!-- Hidden Image of Horse in House -->
+            <img id="horseInHouse" src="./petimagesapp/hourse-out-stable.png" alt="Horse in House" class="pet-image" style="display: none;">
+            <button id="playButtonHorse">Play as Horsey</button>
+            <button id="horseButton">Play Horse Sound</button>
+            <audio id="horseSound" src="./petaudioapp/mixkit-scared-horse-neighing-85.wav"></audio>
+        </div>
+    </div>
+ 
+    <script src="./script.js"></script>
+</body>
+</html>
+ 
